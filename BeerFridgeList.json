@@ -1,0 +1,13 @@
+{
+  "Id": "BeerFridgeList",
+  "Source": [
+    "BingoSquares.json"
+  ],
+  "Header": "Select to only pull options that are in the fridge.",
+  "Buttons": [
+    {
+      "ButtonName": "In Stock Beers Only",
+      "ButtonValue": "IsInStock"
+    }
+  ]
+}
