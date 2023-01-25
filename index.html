@@ -16,7 +16,7 @@
 </head>
 <body class="schemeOne">
     <div class="container">
-        <div class="row" style="padding-top: 10px">
+        <div class="row" id="bingoHeader" style="padding-top: 10px">
             <div class="col bingoHeader">
                 
                 <h2 style="color: #fff">BEER BINGO</h2>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <!--No Filters Selected Popup Modal ends here-->
-        <div class="row buttonRow">
+        <div class="row buttonRow" id="menuRow">
             <div class="col">
                 <div class="form-check form-check-inline" style="padding-left: 0px;">
                     <button type="button" class="btn btnSettings" data-bs-toggle="modal" data-bs-target="#optionModal" onclick="{ viewedSettings = true; }">Settings</button>
@@ -89,6 +89,9 @@
                 </div>
                 <div class="form-check form-check-inline" style="padding-left: 0px;">
                     <button id="colorPicker" class="btn btnColorPicker">Color Picker</button>
+                </div>
+                <div class="form-check form-check-inline" style="padding-left: 0px;">
+                    <button id="heroesBingoBtn" class="btn btnNew" onclick="enterPrinterMode()">Printer Mode</button>
                 </div>
             </div>
         </div>
@@ -137,6 +140,12 @@
                 }
             }
         });
+    }
+
+    function enterPrinterMode() {
+        document.getElementById("menuRow").innerHTML = "";
+        document.getElementById("heroesBingoMessage").innerHTML = "";
+        document.getElementById("bingoHeader").innerHTML = "";
     }
 
     function heroesBingoEntry() {
