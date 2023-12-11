@@ -19,7 +19,7 @@
         <div class="row" id="bingoHeader" style="padding-top: 10px">
             <div class="col bingoHeader">
                 
-                <h2 style="color: #fff">BEER BINGO</h2>
+                <h2 style="color: #fff"><!--BEER BINGO--></h2>
             </div>
         </div>
         <!--Options Modal Section starts here-->
@@ -67,13 +67,13 @@
         <!--No Filters Selected Popup Modal ends here-->
         <div class="row buttonRow" id="menuRow">
             <div class="col">
-                <div class="form-check form-check-inline" style="padding-left: 0px;">
+                <!--<div class="form-check form-check-inline" style="padding-left: 0px;">
                     <button type="button" class="btn btnSettings" data-bs-toggle="modal" data-bs-target="#optionModal" onclick="{ viewedSettings = true; }">Settings</button>
-                </div>
+                </div>-->
                 <div class="form-check form-check-inline" style="padding-left: 0px;">
                     <button id="heroesBingoBtn" class="btn btnNew" onclick="heroesBingoEntry()">New Board</button>
                 </div>
-                <div class="form-check form-check-inline" style="padding-left: 0px;">
+                <!--<div class="form-check form-check-inline" style="padding-left: 0px;">
                     <button id="heroesBingoBtn" class="btn btnSave" onclick="saveCurrentBoard()">Save Board</button>
                 </div>
                 <div class="form-check form-check-inline" style="padding-left: 0px;">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="form-check form-check-inline" style="padding-left: 0px;">
                     <button id="colorPicker" class="btn btnColorPicker">Color Picker</button>
-                </div>
+                </div>-->
                 <div class="form-check form-check-inline" style="padding-left: 0px;">
                     <button id="heroesBingoBtn" class="btn btnNew" onclick="enterPrinterMode()">Printer Mode</button>
                 </div>
@@ -117,6 +117,7 @@
     var bingoBoardOptions;
     var loadedBingoBoard = false;
     var viewedSettings = false;
+    var generatorIterator = 0;
 
     window.onload = function () {
         printOptionsMenu();
@@ -151,11 +152,13 @@
     function heroesBingoEntry() {
         cleanBoard();
         buttonSelection = "heroesBingo";
+        generatorIterator = 0;
         loadedBingoBoard = false;
         addSelections();
         //Pops up a modal if the user has not clicked "Settings" to set filters.
-        if (viewedSettings) prepareData();
-        else $('#noFiltersModal').modal('show');
+        prepareData();
+        //if (viewedSettings) prepareData();
+        //else $('#noFiltersModal').modal('show');
     }
 
     function addSelections() {
@@ -423,20 +426,20 @@
         //set up bootstrap container divs
         var containerDiv = document.createElement("div");
         containerDiv.setAttribute('class', 'container-fluid');
-        containerDiv.setAttribute('id', 'bingoDiv');
+        containerDiv.setAttribute('id', 'bingoDiv', 'col-lg-12');
 
         //instructions
-        var instructDivRow = document.createElement("div");
-        var instructDivCol = document.createElement("div");
-        var instructMsg = document.createElement("h3");
-        instructDivRow.setAttribute('id', 'heroesBingoMessage');
-        instructDivRow.setAttribute('class', 'row justify-content-center');
-        instructDivCol.setAttribute('class', 'col align-self-center');
-        instructMsg.setAttribute('class', 'heroesBingoMessage');
-        instructMsg.innerHTML = "<div class='headerWrapper'><span>&#9432;</span> Mouse over each challenge for more information</div>";
-        instructDivCol.appendChild(instructMsg);
-        instructDivRow.appendChild(instructDivCol);
-        containerDiv.appendChild(instructDivRow);
+        //var instructDivRow = document.createElement("div");
+        //var instructDivCol = document.createElement("div");
+        //var instructMsg = document.createElement("h3");
+        //instructDivRow.setAttribute('id', 'heroesBingoMessage');
+        //instructDivRow.setAttribute('class', 'row justify-content-center');
+        //instructDivCol.setAttribute('class', 'col align-self-center');
+        //instructMsg.setAttribute('class', 'heroesBingoMessage');
+        //instructMsg.innerHTML = "<div class='headerWrapper'><span>&#9432;</span> Mouse over each challenge for more information</div>";
+        //instructDivCol.appendChild(instructMsg);
+        //instructDivRow.appendChild(instructDivCol);
+        //containerDiv.appendChild(instructDivRow);
 
         // create elements <table> and a <tbody>
         var tblDivRow = document.createElement("div");
@@ -450,9 +453,9 @@
         var tblBody = document.createElement("tbody");
 
         var usedBingoOptions = [];
-        for (var i = 0; i < 5; i++) {
+        for (var i = 0; i < 4; i++) {
             row = document.createElement("tr");
-            for (var j = 0; j < 5; j++) {
+            for (var j = 0; j < 7; j++) {
 
                 var bingoElement;
                 if (!loadedBingoBoard) {
@@ -510,32 +513,33 @@
     function pullNewBingoSquare(usedBingoOptions) {
         //Pull until we get a bingo card we haven't used yet. Make this its own separate function if it gets any more complex.
         var bingoElement;
-        var pullAgain = true;
-        var masterIndex = 0;
-        while (pullAgain) {
-            var validOption = false;
-            masterIndex = getRandomInt(bingoCardsJson.length);
-            bingoElement = bingoCardsJson[masterIndex];
-            //Changed forEach to every so we can stop iterating when we find a positive value (return false)
-            selectedOptions[bingoElement.Source].every(element => {
-                if (bingoElement[element] == "Yes") {
-                    validOption = true;
-                    return false;
-                }
-                return true;
-            });
-            if (validOption) {
-                    pullAgain = false;
-                    usedBingoOptions.forEach(function (element, index, array) {
-                        if (bingoElement.Nickname == element.Nickname) {
-                            pullAgain = true;
-                        }
-                    });
-            }
-        }
-        bingoElement["masterIndex"] = masterIndex;
+        //var pullAgain = true;
+        //var masterIndex = 0;
+        //while (pullAgain) {
+        //    var validOption = false;
+        //    masterIndex = getRandomInt(bingoCardsJson.length);
+        bingoElement = bingoCardsJson[generatorIterator];
+        //    //Changed forEach to every so we can stop iterating when we find a positive value (return false)
+        //    selectedOptions[bingoElement.Source].every(element => {
+        //        if (bingoElement[element] == "Yes") {
+        //            validOption = true;
+        //            return false;
+        //        }
+        //        return true;
+        //    });
+        //    if (validOption) {
+        //            pullAgain = false;
+        //            usedBingoOptions.forEach(function (element, index, array) {
+        //                if (bingoElement.Nickname == element.Nickname) {
+        //                    pullAgain = true;
+        //                }
+        //            });
+        //    }
+        //}
+        bingoElement["masterIndex"] = generatorIterator;
         bingoElement["checkedIndicator"] = false;
-        usedBingoOptions.push(bingoElement);
+        //usedBingoOptions.push(bingoElement);
+        generatorIterator++;
         return bingoElement;
     }
 

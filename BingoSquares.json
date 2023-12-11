@@ -1,490 +1,123 @@
 [
- {
-   "Nickname": "Karben 4 Fantasy Factory",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Karben 4",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Bell's Two-Hearted Ale",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Bell's",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Founders All Day IPA",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Founders",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Drekker Clueless Wonder",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Drekker",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Elysian Space Dust",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Elysian",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Revolution Anti Hero",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Revolution",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Dogfish Head 60 Minute IPA",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Dogfish Head",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Sierra Nevada Atomic Torpedo",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Sierra Nevada",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Lagunitas Hazy Wonder",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Lagunitas",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Goose Island Tropical Bear Hug",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IIPA",
-   "Brewery": "Goose Island",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Cigar City Jai Alai",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Cigar City",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Lagunitas IPA",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Lagunitas",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "3 Floyd Zombie Dust",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "3 Floyds",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Deschutes Fresh Squeezed",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Deschutes",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "New Belgium Voodoo Ranger Juice Force",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "New Belgium",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Modern Times Technomancer",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Modern Times",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Indeed Flavorwave",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Indeed",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Ecliptic Phaser",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "HIPA",
-   "Brewery": "Ecliptic",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "3 Sheeps Chaos Pattern",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "HIPA",
-   "Brewery": "3 Sheeps",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "MKE Brewing MVP",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "HIPA",
-   "Brewery": "MKE Brewing",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Public Craft Lakeshore Haze",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "NEIPA",
-   "Brewery": "Public Craft",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Goose Island Neon Bear Hug",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Goose Island",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Door County Brewing Vacationland",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Door County Brewing",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Shiner Desert Mirage",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "HIPA",
-   "Brewery": "Shiner",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "City Lights Hazy IPA",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "HIPA",
-   "Brewery": "City Lights",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Odell IPA",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Odell",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Terrapin Hopsecutioner",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Terrapin",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Central Waters Rift",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Central Waters",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Eagle Park Set List",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "NEIPA",
-   "Brewery": "Eagle Park",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Half Acre Daisy Cutter",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "APA",
-   "Brewery": "Half Acre",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Fermentorium Music Maker",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "NEIPA",
-   "Brewery": "Fermentorium",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Fermentorium Juice Packets",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Fermentorium",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Fermentorium Musique Nonstop",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "NEIPA",
-   "Brewery": "Fermentorium",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Founders Centennial",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Founders",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Goose Island Bear Hug",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Goose Island",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Deschutes Fresh Haze",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "HIPA",
-   "Brewery": "Deschutes",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Founders 4 Giants + Haze of Destiny",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "Imp NEIPA",
-   "Brewery": "Founders",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "New Belgium Imperial Voodoo Ranger",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "Imp IPA",
-   "Brewery": "New Belgium",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "18th St. Sex & Candy",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "18th St",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Une Annee Hubbard's Cave",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "NEIPA",
-   "Brewery": "Une Annee",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "O'so Hop Debauchery",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "O'so",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "HolzlagerClown Hammer",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Holzlager",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "More Brewing Morever",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "More",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Drekker DDIN is my Overlord",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Drekker",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Drekker Hazers Gonna Haze",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "NEIPA",
-   "Brewery": "Drekker",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Drekker Make it Spooky",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Drekker",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Drekker Ectogasm",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Drekker",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Raised Grain Naked Threesome",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Raised Grain",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Weldworks It's a Unicorn Thing",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Weldworks",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Drekker Involuntary Narcissistic Rage",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Drekker",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Brewing Projekt Dare Mighty Things",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Brewing Projekt",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Raised Grain Mello Rillo",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Raised Grain",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Company Zany Laff Riot",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Company",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Black Stack Are We Clear",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "HIPA",
-   "Brewery": "Black Stack",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Mason Aleworks Nelson Revengeance",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "DIPA",
-   "Brewery": "Mason Aleworks",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Surly Furious",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Surly",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Mobcraft IPA",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Mobcraft",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Eagle Creek Adaption",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Eagle Creek",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Modist Circular Thoughts",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "3IPA",
-   "Brewery": "Modist",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Modist Teal Label",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "IPA",
-   "Brewery": "Modist",
-   "IsInStock": "Yes"
- },
- {
-   "Nickname": "Modist Dream Yard",
-   "Challenge": "Drink me!",
-   "Source": "BingoSquares.json",
-   "BeerStyle": "NEIPA",
-   "Brewery": "Modist",
-   "IsInStock": "Yes"
- }
+  {
+    "Nickname": "I wish I was as smart as my brother",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Le Tits Now",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Shuck it, Tebeck",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Dessert Eagle",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Miracle on Rice",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Ill II",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Definition of ''Interesting''",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Sahara Dessert",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Potent Potables",
+    "Challenge": "Drink me!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Hold my Beer",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Dam and Sean Remington",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Barrel-aged Stoat",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Herpes",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "The Spanish Inquisition",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Pull my finger",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Pig Iron",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "French Cooking",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Spam, spam, spam sausage, eggs, and spam",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "It's 5:00 somewhere",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Holy Clap!!",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Participation Trophy Winners",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Getting ''Gif''-e with it",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Another Anathema",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Floccinauci-nihilipilification",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Ignominous Introverts",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Strictly Schadenfreude",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Saving Ryan's Privates",
+    "Source": "BingoSquares.json"
+  },
+  {
+    "Nickname": "Magic Mike",
+    "Source": "BingoSquares.json"
+  }
 ]

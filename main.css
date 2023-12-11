@@ -135,7 +135,7 @@ body {
     border-spacing: 10px;
     height: 800px;
     text-align: center;
-    width: 800px;
+    width: 100%;
 }
 
     .bingoTable td {
@@ -160,15 +160,15 @@ body {
             color: #fff;
             text-shadow: 0px 0px 3px var(--darkRed);
         }
-
+/*
             .bingoTable td.marked.finishedBingo {
                 border: 5px solid var(--yellow);
             }
-
+*/
 .justify-content-center {
     text-align: -webkit-center;
 }
-
+/*
 .bingoDing .bingoHeader img {
     animation-name: logoSpin;
     animation-duration: .5s;
@@ -202,3 +202,4 @@ body {
         width: 135px;
     }
 }
+*/
